@@ -223,6 +223,48 @@ header .navbar ul li a:hover {
 	transform: translateY(-1rem);
 }
 
+.symtoms {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.symtoms .content {
+	flex: 1 1 40rem;
+}
+
+.symtoms .image {
+	flex: 1 1 40rem;
+}
+
+.symtoms .image img {
+	width: 100%;
+}
+
+.symtoms .content p {
+	font-size: 1.5rem;
+	color: #999;
+	padding: 1rem 0;
+}
+
+.symtoms .content ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 1rem 0;
+}
+
+.symtoms .content ul .two {
+	padding-left: 4.5rem;
+}
+
+.symtoms .content ul li {
+	margin-left: 2rem;
+	font-size: 1.5rem;
+	color: #666;
+	padding: .5rem 0;
+}
+
 /* media queries */
 
 @media (max-width: 991px) {
