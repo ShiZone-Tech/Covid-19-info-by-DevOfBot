@@ -145,4 +145,12 @@ header .navbar ul li a:hover {
 		border: none;
 		border-radius: 5rem;
 	}
+
+	.fa-times {
+		transform: rotate(180deg);
+	}
+
+	header .navbar.nav-toggle {
+		left: 0;
+	}
 }
